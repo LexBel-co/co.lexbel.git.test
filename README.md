@@ -1,8 +1,10 @@
 <p align="center">
-  <img src="https://openits.co/wp-content/uploads/2020/07/log-peque.png" alt="Opentecnologia">
+  <img src="https://openits.co/wp-content/uploads/2020/07/log-peque.png" alt="Opentecnologia"><br>
+  <img src="https://img.shields.io/badge/language-JavaScript-yellow" alt="JavaScript Badge">
+  <img src="https://img.shields.io/badge/Tributaria-OPentecnologia-green" alt="JavaScript Badge">
 </p>
 
-# CO.OPEN.GIT.TEST
+# CO.OPEN.GIT.TEST ![JavaScript](https://img.shields.io/badge/Retos-Git-blue)
 
 ## Repositorio para pruebas con GIT y GitHub
 

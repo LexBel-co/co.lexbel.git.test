@@ -1,0 +1,17 @@
+# Le dice a Git que detecte automáticamente el tipo de final de línea (LF o CRLF) según el sistema operativo.
+# Evita problemas cuando diferentes miembros del equipo trabajan en Windows, Linux o Mac, y tienen distintos estilos de finales de línea
+* text=auto
+
+# Indica a Git que los archivos .css y .scss deben tratarse como archivos de terceros (vendored).
+# Esto significa que GitHub los excluirá del cálculo de lenguajes del repositorio
+*.css linguist-vendored
+*.scss linguist-vendored
+
+# Evita que Git intente identificar estos archivos como pertenecientes a algún lenguaje.
+# Se usan para excluir completamente esos tipos de archivo del análisis de Linguist.
+*.html linguist-detectable=false
+*.php linguist-detectable=false
+
+# Indica que el archivo CHANGELOG.md debe ser ignorado al exportar el repositorio (por ejemplo, usando git archive para generar un .zip o .tar.gz).
+# Importante? Puede que no se requiera incluir archivos como notas, pruebas, documentación interna, etc. en las versiones empaquetadas para distribución
+CHANGELOG.md export-ignore
