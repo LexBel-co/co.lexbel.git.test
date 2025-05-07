@@ -16,6 +16,6 @@ function dividir(a: number, b: number) {
     }
 }
 
-function multiplicar(a, b) {
+function multiplicar(a: number, b: number): number {
     return a*b;
 }
