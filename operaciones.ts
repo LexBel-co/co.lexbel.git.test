@@ -15,3 +15,7 @@ function dividir(a: number, b: number) {
         console.error(`Error: ${error}`);
     }
 }
+
+function multiplicar(a, b) {
+    return a*b;
+}
