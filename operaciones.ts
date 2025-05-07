@@ -16,6 +16,6 @@ function dividir(a: number, b: number) {
     }
 }
 
-function multiplicar(a, b) {
-    return a*b;
+function porcentaje(a, b) {
+    return a*b%;
 }
