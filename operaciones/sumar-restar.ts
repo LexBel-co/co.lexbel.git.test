@@ -1,4 +1,4 @@
-function opAdd(a: number, b: number, c: number): number {
+function opSumar(a: number, b: number, c: number): number {
     return a+b+c;
 }
 
