@@ -6,7 +6,7 @@ Este archivo describe todos los cambios significativos registrados para este pro
 El formato/estándar usado, esta basado en [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 y este proyecto se adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [v1.0.1] - 2025-05-28
+## [v1.1.0] - 2025-05-28
 ### Added
 - Se creo la carpeta operaciones y en ella los siguientes archivos con su respectiva función:
   - Sumar y Restar
