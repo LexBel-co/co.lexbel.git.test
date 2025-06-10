@@ -1,5 +1,5 @@
 /**
- * Permite dividir dos números.
+ * Modificación del comentario, permite dividir dos números.
  *
  * @param {number} a Número a dividir a.
  * @param {number} b Número a dividir b.
@@ -14,13 +14,22 @@ function operacionDividir(a: number, b: number) {
 }
 
 /**
- * Permite sumar tres números.
+ * Permite sumar dos números.
  *
  * @param {number} a Nmúmero a sumar a.
  * @param {number} b Número a sumar b.
- * @param {number} c Número a sumar c.
  * @return {*}  {number}
  */
-function operacionSumar(a: number, b: number, c: number): number {
-    return a+b+c;
+function operacionSumar(a: number, b: number): number {
+    return a+b;
+}
+
+/**
+ * Calcula el doble de un número.
+ *
+ * @param {number} a Numero a multiplicar por 2.
+ * @return {*}  {number}
+ */
+function operacionDoble(a: number): number {
+    return a * 2;
 }
