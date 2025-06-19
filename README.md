@@ -23,4 +23,3 @@ Un changelog es un archivo que documenta los cambios importantes realizados en u
 ## Keep a Changelog
 
 Es un estándar para escribir changelogs de forma estructurada y clara. Más info: https://keepachangelog.com/en/1.0.0/
-
