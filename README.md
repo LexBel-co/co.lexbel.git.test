@@ -1,10 +1,9 @@
 <p align="center">
-  <img src="https://openits.co/wp-content/uploads/2020/07/log-peque.png" alt="Opentecnologia"><br>
   <img src="https://img.shields.io/badge/language-JavaScript-yellow" alt="JavaScript Badge">
-  <img src="https://img.shields.io/badge/Tributaria-Opentecnologia-green" alt="JavaScript Badge">
+  <img src="https://img.shields.io/badge/GIT-RETOS-green" alt="JavaScript Badge">
 </p>
 
-# CO.OPEN.GIT.TEST ![JavaScript](https://img.shields.io/badge/Retos-Git-blue)
+# CO.LEXBEL.GIT.TEST ![JavaScript](https://img.shields.io/badge/Retos-Git-blue)
 
 ## Repositorio para pruebas con GIT y GitHub
 
@@ -33,25 +32,24 @@ Es un estándar para escribir changelogs de forma estructurada y clara. Más inf
 2. En VSCode tener instalada la extensión Git Graph
 
 ## Descripción del reto
-1. Crear un proyecto vacio llamado co.open.git.test
+1. Crear un proyecto vacio llamado co.lexbel.git.test
 2. Inicializar un repositorio de GIT en el nuevo proyecto en donde la rama principal se debe llamar 'main'
 3. Crear dentro del proyecto un archivo README.md haciendo uso de sintaxis Markdown, este archivo deberá incluir:
-    3.1 Logo de Open al inicio del archivo, el logo debe ser cargado desde esta ubicación https://openits.co/wp-content/uploads/2020/07/log-peque.png
-    3.2 El título principal debe ser CO.OPEN.GIT.TEST
-    3.3 El subtítulo debe ser Repositorio para pruebas con GIT y GitHub
-    3.4 Debe tener un texto descriptivo del objetivo del repositorio/proyecto, debe ser al menos un párrafo de mínimo 100 palabras
+    3.1 El título principal debe ser CO.LEXBEL.GIT.TEST
+    3.2 El subtítulo debe ser Repositorio para pruebas con GIT y GitHub
+    3.3 Debe tener un texto descriptivo del objetivo del repositorio/proyecto, debe ser al menos un párrafo de mínimo 100 palabras
 4. Crear el commit correspondiente al inicio del proyecto
 5. Crear y actualizar el repositorio remoto en la cuenta personal de GitHub, el repositorio debe ser público
 
 ## Solución
 ```
-mkdir /ruta/al/proyecto/co.open.git.test
-cd /ruta/al/proyecto/co.open.git.test
+mkdir /ruta/al/proyecto/co.lexbel.git.test
+cd /ruta/al/proyecto/co.lexbel.git.test
 git init -b main
-git remote add origin https://github.com/LexBel-co/co.open.git.test.git
+git remote add origin https://github.com/LexBel-co/co.lexbel.git.test.git
 touch README.md
 git add -A
-git commit -m "Commit inicial: Inicialización del proyecto CO.OPEN.GIT.TEST"
+git commit -m "Commit inicial: Inicialización del proyecto CO.LEXBEL.GIT.TEST"
 git push origin main
 ```
 
@@ -67,7 +65,7 @@ El objetivo es realizar un commit y push al repo remoto evitando que archivos de
 
 ## Solución
 ```
-cd /ruta/al/proyecto/co.open.git.test
+cd /ruta/al/proyecto/co.lexbel.git.test
 mkdir vendor node_modules
 touch node_modules/index.ts
 touch vendor/autoload.php
@@ -405,7 +403,7 @@ Creación manual del archivo CHANGELOG.md y se agrega el siguiente contenido al 
 
 ```
 # CHANGELOG
-## Proyecto Retos GIT - Opentecnologia - Equipo Tributaria
+## Proyecto Retos GIT
 
 Este archivo describe todos los cambios significativos registrados para este proyecto.
 
@@ -461,8 +459,8 @@ git push origin main
 ```
 
 # Reto 11
-1. En GitHub ubicar el proyecto co.open.git.test del usuario LexBel-co
-2. Hacer un fork del proyecto con el nombre co.open.git.test.colab y asegurarse de traer al equipo local dicho fork
+1. En GitHub ubicar el proyecto co.lexbel.git.test del usuario LexBel-co
+2. Hacer un fork del proyecto con el nombre co.lexbel.git.test.colab y asegurarse de traer al equipo local dicho fork
 3. Crear una rama dentro del proyecto que tenga las iniciales del nombre - test, por ejemplo ab-test
 4. En esa rama crear un archivo llamado mi-nombre.md, por ejemplo alex-beltran.md y dentro de él colocar cualquier texto, puede ser lorem ipsum
 5. Hacer un commit y abrir un pull-request (PR) el repo central
@@ -470,15 +468,15 @@ git push origin main
 ## Solución
 Para el Fork:
 ```
-En GitHub ir a https://github.com/LexBel-co/co.open.git.test
+En GitHub ir a https://github.com/LexBel-co/co.lexbel.git.test
 Ir al botón 'Fork' y seleccionar la opción 'Crear un nuevo fork'
-En el formulario que se abre colocar el nombre del nuevo repositorio (co.open.git.test.colab), adicionalmente agregar una descripción y asegurarse de dejar seleccionada la casilla 'Copiar solamente la rama main'
+En el formulario que se abre colocar el nombre del nuevo repositorio (co.lexbel.git.test.colab), adicionalmente agregar una descripción y asegurarse de dejar seleccionada la casilla 'Copiar solamente la rama main'
 ```
 
 En el equipo local:
 ```
-git clone https://github.com/LexBel-co/co.open.git.test.colab
-cd co.open.git.test.colab
+git clone https://github.com/LexBel-co/co.lexbel.git.test.colab
+cd co.lexbel.git.test.colab
 git checkout -b ab-test
 echo -e "# Alex Beltrán\n\nAmet proident ex minim mollit non sit sit consectetur magna." > alex-beltran.md
 git add -A
@@ -494,14 +492,14 @@ De click en Crear Pull Request
 ```
 
 # Reto 12
-Obtener los tags del repositorio co.open.git.test o el repo del fork del reto anterior
+Obtener los tags del repositorio co.lexbel.git.test o el repo del fork del reto anterior
 
 ```
 Partiendo del hecho de ya tener el fork y haber clonado el repositorio en el local:
 
 # Sincronizar el repositorio con el repo origen
 # upstream es el nombre que se le da a un remoto adicional, es un alias, pero podría llamarse por ejemplo repo-original
-git remote add upstream https://github.com/crixus12cr/co.open.git.test.git
+git remote add upstream https://github.com/crixus12cr/co.lexbel.git.test.git
 
 # Traer los tags
 git fetch upstream --tags
@@ -517,11 +515,11 @@ git push origin refs/remotes/upstream/development:refs/heads/development
 ```
 
 # Reto 13
-Vamos iniciar el trabajo colaborativo, sin embargo vamos realizar los retos con un entorno más cercano al que trabajamos en Open, para esto vamos a orientar el trabajo mediante la metodología Gitflow la cual deben investigarla y tener un resumen de la misma
+Vamos iniciar el trabajo colaborativo, sin embargo vamos realizar los retos con un entorno más cercano al que trabajamos, para esto vamos a orientar el trabajo mediante la metodología Gitflow la cual deben investigarla y tener un resumen de la misma
 
 Les envié las invitaciones de colaboración a mi repositorio, las cuales deben aceptar
 
-Deben clonar mi repositorio https://github.com/LexBel-co/co.open.git.test en sus equipos locales
+Deben clonar mi repositorio https://github.com/LexBel-co/co.lexbel.git.test en sus equipos locales
 
 Cada uno de ustedes deberá crear las siguientes ramas de acuerdo a lo establecido en Gitflow
 JH: sumar-restar
